@@ -6,5 +6,9 @@ parameters = [
   { name = "dev.frontend.payment_url" , value = "http://payment-dev.jdevops72.online:8080/" },
   { name = "dev.catalogue.mongodb_endpoint" , value = "mongodb-dev.jdevops72.online" },
   { name = "dev.catalogue.mongodb" , value = "MONGO=true" },
-  { name = "dev.catalogue.mongodb_url" , value = "mongodb://mongodb-dev.jdevops72.online:27017/catalogue" }
+  { name = "dev.catalogue.mongodb_url" , value = "mongodb://mongodb-dev.jdevops72.online:27017/catalogue" },
+  { name = "dev.user.mongodb" , value = "MONGO=true" },
+  { name = "dev.user.redis_host" , value = "redis-dev.jdevops72.online" }
+  { name = "dev.user.mongodb_url" , value = "mongodb://mongodb-dev.jdevops72.online:27017/users" }
+
 ]
