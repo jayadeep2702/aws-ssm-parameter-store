@@ -15,7 +15,7 @@ parameters = [
   { name = "dev.cart.catalogue_host" , value = "catalogue-dev.jdevops72.online" },
   { name = "dev.shipping.cart_endpoint" , value = "cart-dev.jdevops72.online:8080" },
   { name = "dev.shipping.db_host" , value = "mysql-dev.jdevops72.online" },
-  { name = "dev.shipping.db_user" , value = "roboshop" },
+  { name = "dev.shipping.db_user" , value = "root" },
   { name = "dev.shipping.db_pass" , value = "Roboshop@1" }
 ]
 
