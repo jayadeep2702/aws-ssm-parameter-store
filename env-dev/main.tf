@@ -13,7 +13,7 @@ parameters = [
   { name = "dev.cart.catalogue_port" , value = "80" },
   { name = "dev.cart.catalogue_host" , value = "catalogue-dev.jdevops72.online" },
   { name = "dev.shipping.cart_endpoint" , value = "cart-dev.jdevops72.online:80" },
-  { name = "dev.rds_db_host" , value = "rds-dev-rds.cluster-cz0mqmd5k99c.us-east-1.rds.amazonaws.com" },
+  { name = "dev.rds.db_host" , value = "rds-dev-rds.cluster-cz0mqmd5k99c.us-east-1.rds.amazonaws.com" },
   { name = "dev.shipping.db_user" , value = "root" },
   { name = "dev.payment.cart_host" , value = "cart-dev.jdevops72.online" },
   { name = "dev.payment.cart_port" , value = "80" },
