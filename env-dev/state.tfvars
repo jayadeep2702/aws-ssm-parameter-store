@@ -1,3 +1,3 @@
 bucket = "mybucket-0227"
-key    = "parameter-store/prod/terrafrom.state"
+key    = "parameter-store/dev/terrafrom.state"
 region = "us-east-1"
