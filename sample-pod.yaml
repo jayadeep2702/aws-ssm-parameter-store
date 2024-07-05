@@ -3,7 +3,7 @@ kind: ServiceAccount
 metadata:
   name: oidc-ssm
   annotations:
-    arn:aws:iam::710990938946:role/eks-ssm-ps-prod-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::710990938946:role/eks-ssm-ps-prod-role
 
 ---
 apiVersion: v1
