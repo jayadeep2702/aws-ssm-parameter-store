@@ -14,5 +14,5 @@ spec:
   serviceAccountName: oidc-ssm
   containers:
     - name: sample-pod
-      image:
+      image: 710990938946.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest
       imagePullPolicy: Always
