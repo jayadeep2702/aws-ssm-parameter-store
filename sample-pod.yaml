@@ -12,7 +12,7 @@ metadata:
   name: sample-pod
 spec:
   serviceAccountName: oidc-ssm
-  comtainers:
+  containers:
     - name: sample-pod
       image:
       imagePullPolicy: Always
