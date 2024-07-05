@@ -1,0 +1,1 @@
+aws ssm parameter --name "dev.cart.catalogue_host" | jq. Parameters[].value | sed -e 's/"//g'
