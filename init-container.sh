@@ -1,1 +1,1 @@
-aws ssm get-parameters --names "dev.cart.catalogue_host" | jq . Parameters[].value | sed -e 's/"//g'
+aws ssm get-parameters --names "dev.cart.catalogue_host" | jq .Parameters[].Value | sed -e 's/"//g'
